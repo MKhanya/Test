@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190704 22:14:00.689" rpa="false">
+<suite id="s1" name="Message" source="C:\Users\Khanya\PycharmProjects\Cases\tests\message.robot">
+<test id="s1-t1" name="New customer must be added in the list">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.onlinetextmessage.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190704 22:14:01.639" level="INFO">Opening browser 'chrome' to base url 'https://www.onlinetextmessage.com'.</msg>
+<status status="PASS" starttime="20190704 22:14:01.639" endtime="20190704 22:14:08.098"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5 sec</arg>
+</arguments>
+<msg timestamp="20190704 22:14:13.112" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20190704 22:14:08.110" endtime="20190704 22:14:13.112"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190704 22:14:13.112" endtime="20190704 22:14:15.761"></status>
+</kw>
+<status status="PASS" starttime="20190704 22:14:01.623" endtime="20190704 22:14:15.761" critical="yes"></status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" starttime="20190704 22:14:00.705" endtime="20190704 22:14:15.776"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Message">Message</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
